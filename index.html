@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Esportes</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <h1>Procure o esporte de seu interesse</h1>
+        <h2 class="subtitulo">Nesse site você pode pesquisar esportes de seu interesse e ver suas descrições.</h2>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do esporte" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- Os resultados da pesquisa aparecerão aqui -->
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Pesquisa de Esportes. Todos os direitos reservados.</p>
+        <p>Entre em contato no email: Esportes@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
